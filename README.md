@@ -25,7 +25,8 @@ Responsável por construir a primeira versão do Data Lake do iFood, com foco na
 
 ---
 
-📂 Descrição das Pastas
+## 📂 Descrição das Pastas
+
 src/raw → Scripts responsáveis por carregar os dados originais, aplicar limpeza e tratamento inicial (remoção de nulos, padronização de datas, ajustes de tipos de dados etc.) antes de armazená-los no formato Delta.
 
 analysis → Scripts e notebooks que utilizam os dados já tratados para gerar respostas às perguntas do case e análises adicionais que possam trazer insights relevantes.
