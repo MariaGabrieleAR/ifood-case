@@ -6,7 +6,7 @@ Este projeto tem como objetivo demonstrar habilidades de engenharia de dados por
 
 ## 🧩 Descrição do Desafio
 
-Você foi contratada para construir a primeira versão do Data Lake do iFood, com foco na análise de dados de mobilidade urbana. O desafio consiste em:
+Responsável por construir a primeira versão do Data Lake do iFood, com foco na análise de dados de mobilidade urbana. O desafio consiste em:
 
 - Ingerir dados brutos de corridas de **Yellow Taxis** (de janeiro a maio de 2023).
 - Limpar, transformar e disponibilizar esses dados em formato Delta.
@@ -21,6 +21,7 @@ Você foi contratada para construir a primeira versão do Data Lake do iFood, co
 - **Databricks Community Edition**
 - **AWS S3 (Data Lake)**
 - **Python**
+- ** SQL **
 
 ---
 
