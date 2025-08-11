@@ -21,7 +21,7 @@ Responsável por construir a primeira versão do Data Lake do iFood, com foco na
 - **Databricks Community Edition**
 - **AWS S3 (Data Lake)**
 - **Python**
-- ** SQL **
+- **SQL**
 
 ---
 
