@@ -33,12 +33,12 @@ analysis → Scripts e notebooks que utilizam os dados já tratados para gerar r
 🚀 Como Executar o Projeto
 
 1- Clone este repositório:
-```bash
+bash
 git clone https://github.com/seu-usuario/ifood-case.git
 cd ifood-case
 
 2- Instale as dependências:
-```bash
+bash
 pip install -r requirements.txt
 
 ---
