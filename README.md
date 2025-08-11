@@ -25,6 +25,30 @@ Responsável por construir a primeira versão do Data Lake do iFood, com foco na
 
 ---
 
+📂 Descrição das Pastas
+src/raw → Scripts responsáveis por carregar os dados originais, aplicar limpeza e tratamento inicial (remoção de nulos, padronização de datas, ajustes de tipos de dados etc.) antes de armazená-los no formato Delta.
+
+analysis → Scripts e notebooks que utilizam os dados já tratados para gerar respostas às perguntas do case e análises adicionais que possam trazer insights relevantes.
+
+🚀 Como Executar o Projeto
+
+1- Clone este repositório:
+```bash
+git clone https://github.com/seu-usuario/ifood-case.git
+cd ifood-case
+
+2- Instale as dependências:
+```bash
+pip install -r requirements.txt
+
+---
+3- Execução no Databricks:
+Faça upload dos scripts/notebooks da pasta src/raw para o Databricks.
+Configure o acesso ao Data Lake (S3 no caso deste desafio).
+Execute os scripts para processar os dados.
+Use os notebooks da pasta analysis para responder às perguntas e explorar insights.
+
+---
 ## 📁 Estrutura do Projeto
 
 ```bash
