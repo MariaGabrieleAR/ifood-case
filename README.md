@@ -32,4 +32,4 @@ ifood-case/
 ├── src/                 # Código fonte da solução (ingestão, transformação, escrita)
 ├── analysis/            # Scripts/Notebooks com as respostas das perguntas analíticas
 ├── README.md            # Este documento
-└── requirements.txt     # Dependências para rodar o projeto
+└── requirements.txt     # Dependências para rodar o projeto local
