@@ -14,11 +14,11 @@ from pyspark.sql.functions import to_timestamp
 # COMMAND ----------
 
 # Lê cada mês separadamente
-df_jan = spark.read.format("delta").load("s3://bucket-taxi-project/consumption/yellow_janeiro/")
-df_fev = spark.read.format("delta").load("s3://bucket-taxi-project/consumption/yellow_fevereiro/")
-df_mar = spark.read.format("delta").load("s3://bucket-taxi-project/consumption/yellow_marco/")
-df_abr = spark.read.format("delta").load("s3://bucket-taxi-project/consumption/yellow_abril/")
-df_maio = spark.read.format("delta").load("s3://bucket-taxi-project/consumption/yellow_maio/")
+df_jan = spark.read.format("delta").load("s3a://bucket-taxi-project/bronze/yellow_janeiro/")
+df_fev = spark.read.format("delta").load("s3a://bucket-taxi-project/bronze/yellow_fevereiro/")
+df_mar = spark.read.format("delta").load("s3a://bucket-taxi-project/bronze/yellow_marco/")
+df_abr = spark.read.format("delta").load("s3a://bucket-taxi-project/bronze/yellow_abril/")
+df_maio = spark.read.format("delta").load("s3a://bucket-taxi-project/bronze/yellow_maio/")
 
 # Faz o union de todos
 df_all = df_jan.unionByName(df_fev)\
